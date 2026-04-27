@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vellanki Sricharan | Portfolio</title>
+  <title>Vellanki Sricharan | Contact</title>
 
   <!--
     - favicon
@@ -170,7 +170,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="index.html" class="navbar-link active">About</a>
+            <a href="index.html" class="navbar-link">About</a>
           </li>
 
           <li class="navbar-item">
@@ -186,7 +186,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="contact.html" class="navbar-link">Contact</a>
+            <a href="contact.html" class="navbar-link active">Contact</a>
           </li>
 
         </ul>
@@ -198,85 +198,43 @@
 
 
       <!--
-        - #ABOUT
+        - #CONTACT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="contact active" data-page="contact">
 
         <header>
-          <h2 class="h2 article-title">About me</h2>
+          <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <section class="about-text">
-          <p>
-            I am an Information Technology undergraduate with strong skills in coding, Java, and team leadership.
-          </p>
-
-          <p>
-            I aim to enhance AI-driven projects like resume analyzers to simplify job search and create impactful tech solutions that connect talent with opportunities effectively.
-          </p>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
         </section>
 
+        <section class="contact-form">
 
-        <!--
-          - highlights
-        -->
+          <h3 class="h3 form-title">Contact Form</h3>
 
-        <section class="service">
+          <form action="#" class="form" data-form>
 
-          <h3 class="h3 service-title">Highlights</h3>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-          <ul class="service-list">
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
 
-            <li class="service-item">
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Languages icon" width="40">
-              </div>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Languages Known</h4>
-
-                <p class="service-item-text">
-                  English (Both), Telugu (Both), Kannada (Spoken)
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="Test ranks icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Test Ranks</h4>
-
-                <p class="service-item-text">
-                  JEE Mains: 105000
-                </p>
-              </div>
-
-            </li>
-            
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="Personal details icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Personal Details</h4>
-
-                <p class="service-item-text">
-                  Gender: Male
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
+          </form>
 
         </section>
 
